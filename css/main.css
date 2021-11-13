@@ -149,11 +149,7 @@ img {
   padding-top: 117px;
   padding-left: 85px;
   padding-bottom: 117px;
-  background: #a2a2a2;
   border-radius: 10px;
-}
-
-.hero-container:hover {
   background-image: url(/images/Bitmap.png);
 }
 
