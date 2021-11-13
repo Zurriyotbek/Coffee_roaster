@@ -770,3 +770,126 @@ img {
   line-height: 26px;
   color: #333d4b;
 }
+
+/*************************** CREATE PLAN PAGE *****************************************/
+
+/* HERO */
+.create-hero-container {
+  padding: 134px 85px;
+  background: url(/images/create-hero-img.png);
+  background-repeat: no-repeat;
+  width: 1280px;
+  border-radius: 10px;
+}
+
+.create-content {
+  width: 486px;
+}
+
+.create-content h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.create-content p {
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* STEPS */
+
+.steps-container {
+  padding-top: 177px;
+  padding-bottom: 160px;
+}
+
+.steps-wrapper {
+  margin: 0;
+  padding: 91px 0px 107px 72px;
+  position: relative;
+  width: 1280px;
+  background-color: #2c343e;
+  border-radius: 5px;
+}
+
+.steps-content {
+}
+
+.create-oval {
+  z-index: 99;
+  background: transparent;
+}
+
+.create-line {
+  width: 655px;
+  top: 105px;
+  left: 89px;
+  z-index: 3;
+  height: 0.5px;
+  border: none;
+}
+
+.steps-card-list {
+  padding-top: 90px;
+  display: flex;
+}
+
+.steps-card {
+  margin: 0;
+  padding: 5px;
+  width: 295px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.steps-card + .steps-card {
+  margin-left: 95px;
+}
+
+.steps-card:hover {
+  box-shadow: 0 0 15px 5px rgba(211, 211, 211, 0.3);
+}
+
+.steps-card p {
+  margin: 0;
+  padding: 0;
+}
+
+.steps-card p:nth-of-type(1) {
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.steps-card p:nth-of-type(2) {
+  margin: 0;
+  margin-bottom: 42px;
+  padding: 0;
+  width: 245px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fefcf7;
+}
+.steps-card p:nth-of-type(3) {
+  line-height: 26px;
+  color: #fefcf7;
+}
