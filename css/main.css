@@ -1044,7 +1044,7 @@ img {
   list-style: none;
 }
 
-.right-bottom-list li:nth-child(1) {
+.right-bottom-list p:nth-child(1) {
   margin: 0;
   margin-bottom: 8px;
   padding: 0;
@@ -1054,7 +1054,7 @@ img {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-.right-bottom-list li:nth-child(2) {
+.right-bottom-list p:nth-child(2) {
   margin: 0;
   padding: 0;
   font-family: Fraunces;
