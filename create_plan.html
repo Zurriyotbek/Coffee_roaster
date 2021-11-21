@@ -4,29 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <!-- <link rel="stylesheet" href="css/main.css" /> -->
-    <link rel="stylesheet" href="css/minifier.css" />
     <title>Create_plan</title>
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <!-- HEADER -->
-    <header class="site-header">
-      <div class="container header-container">
-        <a class="site-logo" href="#"
-          ><img src="/images/site-logo.svg" alt="site-logo"
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo" href="#"
+          ><img class="logo__img" src="/images/site-logo.svg" alt="site-logo"
         /></a>
-
-        <nav class="site-nav">
-          <ul class="site-nav-list">
-            <li class="site-nav-item">
-              <a href="index.html">HOME</a>
+        <!-- NAV-BAR -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html">HOME</a>
             </li>
-            <li class="site-nav-item">
-              <a href="about.html">ABOUT US</a>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">ABOUT US</a>
             </li>
-            <li class="site-nav-item">
-              <a href="#">CREATE YOUR PLAN</a>
+            <li class="nav__item">
+              <a class="nav__link" href="create_plan.html">CREATE YOUR PLAN</a>
             </li>
           </ul>
         </nav>
@@ -34,11 +32,11 @@
     </header>
 
     <!-- MAIN -->
-    <main class="site-main">
+    <main class="main">
       <!-- HERO -->
-      <section class="create-hero">
-        <div class="container create-hero-container">
-          <div class="create-content">
+      <section class="heroCreate">
+        <div class="container heroCreate__container">
+          <div class="heroCreate__content">
             <h1>Create a plan</h1>
             <p>
               Build a subscription plan that best fits your needs. We offer an
@@ -51,15 +49,15 @@
 
       <!-- STEPS -->
       <section class="steps">
-        <div class="container steps-container">
-          <div class="steps-wrapper">
-            <div class="steps-content">
-              <div class="oval create-oval"></div>
-              <div class="oval create-oval"></div>
-              <div class="oval create-oval"></div>
-              <div class="line create-line"></div>
-              <div class="steps-card-list">
-                <div class="steps-card">
+        <div class="container steps__container">
+          <div class="steps__wrapper">
+            <div class="steps__content">
+              <div class="oval steps__oval"></div>
+              <div class="oval steps__oval"></div>
+              <div class="oval steps__oval"></div>
+              <div class="line steps__line"></div>
+              <div class="steps__list">
+                <div class="steps__card">
                   <p>01</p>
                   <p>Pick your coffee</p>
                   <p>
@@ -69,7 +67,7 @@
                     out.
                   </p>
                 </div>
-                <div class="steps-card">
+                <div class="steps__card">
                   <p>02</p>
                   <p>Choose the frequency</p>
                   <p>
@@ -78,7 +76,7 @@
                     subscription with no commitment through our online portal.
                   </p>
                 </div>
-                <div class="steps-card">
+                <div class="steps__card">
                   <p>03</p>
                   <p>Receive and enjoy!</p>
                   <p>
@@ -95,33 +93,33 @@
 
       <!-- ORDERING -->
       <section class="ordering">
-        <div class="container ordering-container">
-          <div class="ordering-content-top">
-            <ul class="left-list">
-              <li class="left-item">
+        <div class="container ordering__container">
+          <div class="ordering__content-top">
+            <ul class="ordering__left-list">
+              <li class="ordering__left-item">
                 <p>01</p>
                 <a href="#">Preferences</a>
               </li>
-              <li class="left-item">
+              <li class="ordering__left-item">
                 <p>02</p>
                 <a href="#">Bean Type</a>
               </li>
-              <li class="left-item">
+              <li class="ordering__left-item">
                 <p>03</p>
                 <a href="#">Quantity</a>
               </li>
-              <li class="left-item">
+              <li class="ordering__left-item">
                 <p>04</p>
                 <a href="#">Grind Option</a>
               </li>
-              <li class="left-item">
+              <li class="ordering__left-item">
                 <p>05</p>
                 <a href="#">Deliveries</a>
               </li>
             </ul>
-            <ul class="right-list">
-              <li class="right-item">
-                <ul class="right-inside-top-list">
+            <ul class="ordering__right-list">
+              <li class="ordering__right-item">
+                <ul class="ordering__right-inside-top-list">
                   <li>
                     <h4>How do you drink your coffee?</h4>
                   </li>
@@ -129,19 +127,19 @@
                     <a href="#"><img src="images/sign.svg" alt="a sign" /></a>
                   </li>
                 </ul>
-                <ul class="right-inside-list">
-                  <li class="right-inside-item">
+                <ul class="ordering__right-inside-list">
+                  <li class="ordering__right-inside-item">
                     <h5>Capsule</h5>
                     <p>Compatible with Nespresso systems and similar brewers</p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Filter</h5>
                     <p>
                       For pour over or drip methods like Aeropress, Chemex, and
                       V60
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Espresso</h5>
                     <p>
                       Dense and finely ground beans for an intense, flavorful
@@ -150,8 +148,8 @@
                   </li>
                 </ul>
               </li>
-              <li class="right-item">
-                <ul class="right-inside-top-list">
+              <li class="ordering__right-item">
+                <ul class="ordering__right-inside-top-list">
                   <li>
                     <h4>What type of coffee?</h4>
                   </li>
@@ -159,22 +157,22 @@
                     <a href="#"><img src="images/sign.svg" alt="a sign" /></a>
                   </li>
                 </ul>
-                <ul class="right-inside-list">
-                  <li class="right-inside-item">
+                <ul class="ordering__right-inside-list">
+                  <li class="ordering__right-inside-item">
                     <h5>Single Origin</h5>
                     <p>
                       Distinct, high quality coffee from a specific family-owned
                       farm
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Decaf</h5>
                     <p>
                       Just like regular coffee, except the caffeine has been
                       removed
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Blended</h5>
                     <p>
                       Combination of two or three dark roasted beans of organic
@@ -183,8 +181,8 @@
                   </li>
                 </ul>
               </li>
-              <li class="right-item">
-                <ul class="right-inside-top-list">
+              <li class="ordering__right-item">
+                <ul class="ordering__right-inside-top-list">
                   <li>
                     <h4>How much would you like?</h4>
                   </li>
@@ -192,22 +190,22 @@
                     <a href="#"><img src="images/sign.svg" alt="a sign" /></a>
                   </li>
                 </ul>
-                <ul class="right-inside-list">
-                  <li class="right-inside-item">
+                <ul class="ordering__right-inside-list">
+                  <li class="ordering__right-inside-item">
                     <h5>250g</h5>
                     <p>
                       Perfect for the solo drinker. Yields about 12 delicious
                       cups.
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>500g</h5>
                     <p>
                       Perfect option for a couple. Yields about 40 delectable
                       cups.
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>1000g</h5>
                     <p>
                       Perfect for offices and events. Yields about 90 delightful
@@ -216,8 +214,8 @@
                   </li>
                 </ul>
               </li>
-              <li class="right-item">
-                <ul class="right-inside-top-list">
+              <li class="ordering__right-item">
+                <ul class="ordering__right-inside-top-list">
                   <li>
                     <h4>Want us to grind them?</h4>
                   </li>
@@ -225,21 +223,21 @@
                     <a href="#"><img src="images/sign.svg" alt="a sign" /></a>
                   </li>
                 </ul>
-                <ul class="right-inside-list">
-                  <li class="right-inside-item">
+                <ul class="ordering__right-inside-list">
+                  <li class="ordering__right-inside-item">
                     <h5>Wholebean</h5>
                     <p>
                       Best choice if you cherish the full sensory experience
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Filter</h5>
                     <p>
                       For drip or pour-over coffee methods such as V60 or
                       Aeropress
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Cafetiére</h5>
                     <p>
                       Course ground beans specially suited for french press
@@ -248,8 +246,8 @@
                   </li>
                 </ul>
               </li>
-              <li class="right-item">
-                <ul class="right-inside-top-list">
+              <li class="ordering__right-item">
+                <ul class="ordering__right-inside-top-list">
                   <li>
                     <h4>How often should we deliver?</h4>
                   </li>
@@ -257,24 +255,24 @@
                     <a href="#"><img src="images/sign.svg" alt="a sign" /></a>
                   </li>
                 </ul>
-                <ul class="right-inside-list">
-                  <li class="right-inside-item">
+                <ul class="ordering__right-inside-list">
+                  <li class="ordering__right-inside-item">
                     <h5>Every week</h5>
                     <p>
                       $7.20 per shipment. Includes free first-class shipping.
                     </p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Every 2 weeks</h5>
                     <p>$9.60 per shipment. Includes free priority shipping.</p>
                   </li>
-                  <li class="right-inside-item">
+                  <li class="ordering__right-inside-item">
                     <h5>Every month</h5>
                     <p>$12.00 per shipment. Includes free priority shipping.</p>
                   </li>
                 </ul>
               </li>
-              <li class="right-bottom-list">
+              <li class="ordering__right-bottom-list">
                 <p>Order Summary</p>
                 <p>
                   “I drink my coffee as <span>Filter</span>, with a
@@ -282,8 +280,8 @@
                   <span>Cafetiére</span>, sent to me <span>Every Week</span>.”
                 </p>
               </li>
-              <li class="button-list">
-                <button class="universal-btn">Create my plan!</button>
+              <li class="ordering__button-list">
+                <button class="button">Create my plan!</button>
               </li>
             </ul>
           </div>
@@ -292,36 +290,36 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="site-footer">
-      <div class="container footer-container">
-        <a class="footer-logo" href="#"
+    <footer class="footer">
+      <div class="container footer__container">
+        <a class="footer__logo" href="#"
           ><img src="/images/Group5.svg" alt="logo"
         /></a>
 
-        <ul class="footer-list">
-          <li class="footer-item">
+        <ul class="footer__list">
+          <li class="footer__item">
             <a href="index.html">HOME</a>
           </li>
-          <li class="footer-item">
+          <li class="footer__item">
             <a href="about.html">ABOUT US</a>
           </li>
-          <li class="footer-item">
-            <a href="#">Create your plan</a>
+          <li class="footer__item">
+            <a href="create_plan.html">Create your plan</a>
           </li>
         </ul>
 
-        <ul class="footer-list-2">
-          <li class="list2-item">
+        <ul class="footer__list-2">
+          <li class="footer__list-2-item">
             <a href="#"
               ><img src="/images/facebook.svg" alt="facebook-icon"
             /></a>
           </li>
-          <li class="list2-item">
+          <li class="footer__list-2-item">
             <a href="#"
               ><img src="/images/tweetter.svg" alt="tweeter-icon"
             /></a>
           </li>
-          <li class="list2-item">
+          <li class="footer__list-2-item">
             <a href="#"
               ><img src="/images/instagram.svg" alt="instagram-icon"
             /></a>

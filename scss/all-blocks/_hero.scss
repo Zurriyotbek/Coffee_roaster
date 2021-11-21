@@ -1,0 +1,43 @@
+.hero {
+  &__container {
+    width: 1280px;
+    padding-top: 117px;
+    padding-left: 83px;
+    padding-bottom: 117px;
+    border-radius: 10px;
+    background-image: url(/images/Bitmap.png);
+  }
+
+  &__content-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 494px;
+  }
+
+  &__content-heading {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+
+  &__content-desc {
+    margin: 0;
+    margin-bottom: 56px;
+    padding: 0;
+    width: 445px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}

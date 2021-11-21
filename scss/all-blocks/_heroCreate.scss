@@ -1,0 +1,29 @@
+.heroCreate__container {
+  padding: 134px 85px;
+  background: url(/images/create-hero-img.png);
+  background-repeat: no-repeat;
+  width: 1280px;
+  border-radius: 10px;
+}
+.heroCreate__content {
+  width: 486px;
+}
+.heroCreate__content h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.heroCreate__content p {
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

@@ -1,0 +1,30 @@
+.heroAbout__container {
+  width: 1280px;
+  padding: 137px 85px;
+  background: url(/images/Bitmap.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.heroAbout__content {
+  margin: 0;
+  padding: 0;
+  width: 445px;
+}
+
+.heroAbout__content h1 {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.heroAbout__content p {
+  margin: 0;
+  line-height: 26px;
+  color: #fefcf7;
+}
