@@ -1,11 +1,11 @@
 .hero {
   &__container {
+    margin: 0 auto;
     width: 1280px;
-    padding-top: 117px;
-    padding-left: 83px;
-    padding-bottom: 117px;
+    padding: 117px 20px;
     border-radius: 10px;
     background-image: url(/images/Bitmap.png);
+    background-repeat: no-repeat;
   }
 
   &__content-wrapper {
@@ -39,5 +39,34 @@
     color: #fefcf7;
     mix-blend-mode: normal;
     opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .hero {
+    &__container {
+      width: 690px;
+      background-image: url(/images/Bitmap_tablet.png);
+      background-size: 689px 500px;
+      background-repeat: no-repeat;
+    }
+
+    &__content-wrapper {
+      margin: 0;
+      padding: 0;
+      width: 398px;
+    }
+
+    &__content-heading {
+      margin-bottom: 24px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    &__content-desc {
+      margin-bottom: 40px;
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
 }

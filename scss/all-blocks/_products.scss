@@ -1,6 +1,6 @@
 .products {
   margin: 0;
-  padding: 136px 0 200px;
+  padding: 144px 0 200px;
 
   &__wrapper {
     margin: 0 auto;
@@ -58,5 +58,71 @@
     line-height: 26px;
     text-align: center;
     color: #333d4b;
+  }
+}
+
+// FOR TABLET
+@media screen and (max-width: 730px) {
+  .products {
+    margin: 0;
+    padding: 144px 0;
+
+    &__container {
+      width: 730px;
+      background: url(/images/products-bg.png);
+      background-repeat: no-repeat;
+      background-size: 689px 118px;
+    }
+
+    &__wrapper {
+      margin: 0;
+      padding-top: 126px;
+      width: 573px;
+      display: flex;
+      flex-direction: column;
+      background-image: none;
+    }
+    &__item {
+      margin: 0;
+      margin-left: 6%;
+      padding: 0;
+      position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      border-radius: 10px;
+    }
+    &__item:nth-child(4) img {
+      margin-top: 17px;
+      width: 234.82px;
+      height: 177.48px;
+    }
+    &__item + &__item {
+    }
+
+    &__item img {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 71px;
+    }
+    &__item h3 {
+      margin: 0;
+      margin-bottom: 24px;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__item p {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      text-align: left;
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
 }
