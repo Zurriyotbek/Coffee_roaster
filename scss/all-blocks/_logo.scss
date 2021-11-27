@@ -1,7 +1,17 @@
+// DESKTOP AND TABLETS
+
 .logo:hover {
   opacity: 0.8;
 }
 
 .logo:active {
   opacity: 0.6;
+}
+
+// MOBILES
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 163px;
+    height: 18px;
+  }
 }

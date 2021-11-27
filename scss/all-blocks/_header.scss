@@ -6,10 +6,20 @@
   }
 }
 
-@media screen and (max-width: 730px) {
+// FOR TABLETS
+@media screen and (max-width: 768px) {
   .header {
     &__container {
       width: 730px;
+    }
+  }
+}
+
+// FOR MOBILES
+@media screen and (max-width: 480px) {
+  .header {
+    &__container {
+      width: 367px;
     }
   }
 }

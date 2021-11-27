@@ -1,3 +1,4 @@
+// DESKTOP
 .hero {
   &__container {
     margin: 0 auto;
@@ -42,7 +43,8 @@
   }
 }
 
-@media screen and (max-width: 730px) {
+// FOR TABLETS
+@media screen and (max-width: 768px) {
   .hero {
     &__container {
       width: 690px;
@@ -67,6 +69,45 @@
       margin-bottom: 40px;
       font-size: 15px;
       line-height: 25px;
+    }
+  }
+}
+
+// FOR MOBILES
+@media screen and (max-width: 480px) {
+  .hero {
+    &__container {
+      margin: 0 auto;
+      width: 327px;
+      padding-bottom: 99px;
+      background-image: url(/images/hero-bg-mob.jpg);
+      background-size: 327px 199%;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+    }
+
+    &__content-wrapper {
+      margin: 0;
+      padding: 0;
+      width: 279px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__content-heading {
+      margin-bottom: 24px;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    &__content-desc {
+      margin-bottom: 40px;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      width: 279px;
     }
   }
 }
